@@ -28,16 +28,13 @@ faster than keys and values that are used frequently.
 %setup -q -n %{module}-%{version}
 
 %build
-%{__python} setup.py build
+%py_build
 
 %{?with_tests:%{__python} setup.py test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--skip-build \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %{__rm} $RPM_BUILD_ROOT%{py_sitescriptdir}/repoze/lru/tests.py*
 
