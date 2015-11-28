@@ -6,7 +6,7 @@
 Summary:	A tiny LRU cache implementation and decorator
 Name:		python-%{module}
 Version:	0.6
-Release:	1
+Release:	2
 License:	BSD-derived (http://www.repoze.org/LICENSE.txt)
 Group:		Libraries/Python
 Source0:	http://pypi.python.org/packages/source/r/repoze.lru/repoze.lru-%{version}.tar.gz
