@@ -10,7 +10,7 @@ Summary:	A tiny LRU cache implementation and decorator
 Summary(pl.UTF-8):	Mała implementacja pamięci podręcznej LRU z dekoratorem
 Name:		python-%{module}
 Version:	0.7
-Release:	1
+Release:	2
 License:	BSD-derived (http://www.repoze.org/LICENSE.txt)
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/r/repoze.lru/repoze.lru-%{version}.tar.gz
